@@ -1,0 +1,33 @@
+msgid ""
+msgstr "Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "Rating:"
+msgstr "Note :"
+
+msgid "View on CoolMiniOrNot"
+msgstr "Voir sur CoolMiniOrNot"
+
+msgid "CoolMiniOrNot account (login)"
+msgstr "Compte sur CoolMiniOrNot (login)"
+
+msgid "Enable CoolMiniOrNot"
+msgstr "Activer CoolMiniOrNot"
+
+msgid "CoolMiniOrNot root URL"
+msgstr "URL de base de CoolMiniOrNot"
+
+msgid "CoolMiniOrNot cache timeout (in seconds)"
+msgstr "Durée de mise en cache de CoolMiniOrNot"
+
+msgid "Image ID"
+msgstr "ID de l'image"
+
+msgid "Image ID (empty means current post Image ID):"
+msgstr "ID de l'image (laisser vide pour utiliser l'ID associé au billet en cours) :"
+
+msgid "All my CoolMiniOrNot entries"
+msgstr "Toutes mes images sur CoolMiniOrNot"
+
+msgid "xxx"
+msgstr "xxx"
+

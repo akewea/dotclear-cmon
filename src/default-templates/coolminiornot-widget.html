@@ -1,0 +1,35 @@
+<div id="coolminiornot-comments-widget">
+	
+	<h2>{{tpl:CoolMiniOrNotWidgetTitle}}</h2>
+	
+	<p>{{tpl:lang Rating:}} <img src="{{tpl:CoolMiniOrNotUrl score="1"}}" align="top" /></p>
+	
+	<tpl:CoolMiniOrNotComments>
+    <tpl:CoolMiniOrNotCommentsHeader>
+    <ul class="coolminiornot-comments">
+    </tpl:CoolMiniOrNotCommentsHeader>
+	
+	<li class="coolminiornot-comment {{tpl:CoolMiniOrNotIfFirst}} {{tpl:CoolMiniOrNotIfOdd}}">
+					
+		<p>
+			<img src="{{tpl:CoolMiniOrNotCommentImage}}" alt="{{tpl:CoolMiniOrNotCommentUser}}" align="right" style="margin-left: 10px;" />
+		
+			<a href="{{tpl:CoolMiniOrNotUrl root="1"}}artist/{{tpl:CoolMiniOrNotCommentUser}}">{{tpl:CoolMiniOrNotCommentUser}}</a><br />
+			<b>{{tpl:CoolMiniOrNotCommentRating}}</b> - {{tpl:CoolMiniOrNotCommentDate format="%e %b %Y"}}
+		</p>
+		
+		{{tpl:CoolMiniOrNotComment}}
+		
+	</li>
+	
+	<tpl:CoolMiniOrNotCommentsFooter>	
+	</ul>	
+	
+	<p><strong><a href="{{tpl:CoolMiniOrNotUrl}}">{{tpl:lang View on CoolMiniOrNot}}</a></strong></p>
+	
+	<p><strong><a href="{{tpl:CoolMiniOrNotUrl artist="1"}}">{{tpl:lang All my CoolMiniOrNot entries}}</a></strong></p>
+	
+	</tpl:CoolMiniOrNotCommentsFooter>
+	</tpl:CoolMiniOrNotComments>		
+	
+</div>
