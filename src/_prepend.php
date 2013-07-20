@@ -7,4 +7,6 @@ if (!defined('DC_RC_PATH')) { return; }
 $GLOBALS['__autoload']['CoolMiniOrNot'] = dirname(__FILE__).'/inc/lib.coolminiornot.php';
 $GLOBALS['__autoload']['CoolMiniOrNotExtComment'] = dirname(__FILE__).'/inc/lib.coolminiornot.extensions.php';
 
+$core->blog->settings->addNamespace('coolminiornot');
+
 ?>
